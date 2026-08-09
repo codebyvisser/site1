@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Design Sample</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Flex<span>Design</span></a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="btn-nav">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>We Build Digital Experiences That Matter</h1>
+            <p>A clean, fully responsive layout built with semantic HTML and modern CSS flexbox grids.</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">Explore Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Clean, fast, and structured code tailored to modern standards and cross-device compatibility.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive user interfaces focused heavily on seamless interactions and user satisfaction.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🚀</div>
+                    <h3>SEO Optimization</h3>
+                    <p>Optimized structure and metadata layouts ensuring highly competitive search visibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FlexDesign Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
